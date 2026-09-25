@@ -3,7 +3,7 @@
 <html>
     <body>
         <h2>
-            Result is : <%= session.getAttribute("result") %>
+            Result is : ${result}
         </h2>
 
 
