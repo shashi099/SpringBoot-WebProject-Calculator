@@ -10,15 +10,15 @@
 
 <body>
 
-    <div class="calculator">
-        <h2>Hello Calculator</h2>
+    <div class="programmer">
+        <h2>Hello Welcome Here! </h2>
 
-        <form action="add">
-            <label for="num1">Enter 1st Number :</label>
-            <input type="text" id="num1" name="num1">
+        <form action="addAlien">
+            <label for="aid">Enter the ID :</label>
+            <input type="text" id="aid" name="aid">
 
-            <label for="num2">Enter 2nd Number :</label>
-            <input type="text" id="num2" name="num2">
+            <label for="aname">Enter 2nd Number :</label>
+            <input type="text" id="aname" name="aname">
 
             <input type="submit" value="Submit">
         </form>
