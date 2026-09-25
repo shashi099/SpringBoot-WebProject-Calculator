@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HomeController {
 
     @RequestMapping("/")
-    public String home() {
+    public String start() {
         System.out.println("in home");
-        return "index.jsp";
+        return "index";
     }
 
     @RequestMapping("add")
@@ -23,7 +23,7 @@ public class HomeController {
 
         model.addAttribute("result", result);
 
-        return "result.jsp";
+        return "result";
     }
 
 }
